@@ -219,7 +219,7 @@ public class Lesson4 {
                     System.out.println("Lựa chọn không hợp lệ.");
                     break;
             }
-        }while (choice > 0 && choice < 11);
+        }while (choice > 0 && choice <= 11);
         sc.close();
     }
 }
