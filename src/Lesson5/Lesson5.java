@@ -295,7 +295,7 @@ public class Lesson5 {
             }
 
             System.out.println();
-        } while (choice > 0 && choice <= 10);
+        } while (choice >= 0 && choice <= 10);
         sc.close();
     }
 }
